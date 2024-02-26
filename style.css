@@ -1,22 +1,30 @@
 *{
     font-family: 'inter';
-    margin: 0%;
+    margin: 0px;
 }
 
 #menusuperior {
     background-color: #303030;
-    padding: 150px 0px 100px 100px;
+    color: aliceblue;
 }
 
 #tituloMenuSuperior {
-    color: #FFFFFF;
-    margin-bottom: 15px;
-    font-size: 60px ;
+
+    margin-left: 50px;  
+
+    padding-top: 150px;
 }
 
-#textoMenuSuperior {
-    color: #FFFFFF;
-    font-size: 20px;
+ 
+
+#textoMenuSuperior{
+
+     margin-left: 50px;
+    
+    padding-top: 20px;
+    
+    padding-bottom: 100px;
+    
 }
 
 
@@ -30,23 +38,25 @@
 
 
 #secaoFoto {
-    padding: 50px;
     display: grid;
     grid-auto-flow: column;
-    columns:auto;
-    align-items: center;
+    columns: auto;
 }
 
 #sala {
-    margin-left: 50px;
+    width: 300px;
+    margin: 50px 0px 50px 0px;
 }
 
 #tituloSecaoFoto {
-    font-size: 30px;
+    color: #000000;
+    margin-top: 120px;
+    margin-left: 50px;
 }
 
 #textoSecaoFoto {
-    font-size: 18px;
+    margin-left: 50px;
+
 }
 
 
